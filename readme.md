@@ -6,7 +6,7 @@
       />
 </p>
 
-# Weather app by<a target='_blank' href="https://ayannagori.netlify.app/">Ayannagori07</a>
+# Weather app by<a target='_blank' href="https://ayannagori.netlify.app/">Ayannagori44</a>
 
 This is a weather app used to see detailed weather data of anywhere from anywhere.
 
@@ -32,4 +32,4 @@ Or come in <a target='_blank' href="https://discord.gg/XSbAp2X6d8">Discord</a> f
 
 ## Authors and acknowledgment
 
-Hello 👋 I am Ayan Nagori, a frontend developer from India. I make modern and minimal websites. check my <a target='_blank' href="https://github.com/Ayannagori07">Github Profile</a> or <a target='_blank' href="https://ayannagori.netlify.app/">My Portfolio</a> to know more 😉.
+Hello 👋 I am Ayan Nagori, a frontend developer from India. I make modern and minimal websites. check my <a target='_blank' href="https://github.com/Ayannagori44">Github Profile</a> or <a target='_blank' href="https://ayannagori.netlify.app/">My Portfolio</a> to know more 😉.
