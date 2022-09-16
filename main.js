@@ -391,7 +391,7 @@ const populateWeatherRow = function (week) {
 
 const getData = function (lat, lon, place, region) {
   const data = fetch(
-    `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=hourly,minutely&units=metric&appid=72662e03bee2e64bd5467ccfdc920687`
+    `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=hourly,minutely&units=metric&appid=f1b7ba7a47f863080257931892975f3a`
   )
     .then((r) => r.json())
     .then((data) => {
@@ -411,7 +411,7 @@ const getData = function (lat, lon, place, region) {
 const searchPlace = function (place) {
   if (place) {
     const data = fetch(
-      `https://api.openweathermap.org/geo/1.0/direct?q=${place}&limit=5&appid=72662e03bee2e64bd5467ccfdc920687`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${place}&limit=5&appid=f1b7ba7a47f863080257931892975f3a`
     )
       .then((r) => r.json())
       .then((data) => {
@@ -494,13 +494,12 @@ btnLocationEl.addEventListener("click", (e) => {
 
   function showPosition(position) {
     const data = fetch(
-      `https://api.openweathermap.org/geo/1.0/reverse?lat=${position.coords.latitude}&lon=${position.coords.longitude}&limit=5&appid=72662e03bee2e64bd5467ccfdc920687`
+      `https://api.openweathermap.org/geo/1.0/reverse?lat=${position.coords.latitude}&lon=${position.coords.longitude}&limit=5&appid=f1b7ba7a47f863080257931892975f3a`
     )
       .then((r) => r.json())
       .then((data) => {
         startLoader();
         guideEl.classList.add("hide");
-
         let { lat, lon, country, name } = data[0];
         getData(lat, lon, name, country);
       });
